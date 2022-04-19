@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace design_patterns.Adapter
+﻿namespace design_patterns.Adapter
 {
-    public interface PaymentAdapter
+    // Interface used to abstract the method responsible by calling the right external payment system.
+    public interface IPaymentAdapter
     {
         void callsExternalPaymentSystem(Payment paymentModel);
     }

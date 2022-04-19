@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using design_patterns.Adapter.ExternalAPIs;
+﻿using design_patterns.Adapter.ExternalAPIs;
 
 namespace design_patterns.Adapter
 {
+    // Class that convert the model into the specific call of external API 
     public class SecondaryPaymentSystemAdapter : IPaymentAdapter
     {
         public void callsExternalPaymentSystem(Payment paymentModel)

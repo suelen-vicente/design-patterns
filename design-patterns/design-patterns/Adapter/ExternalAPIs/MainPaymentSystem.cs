@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace design_patterns.Adapter.ExternalAPIs
+﻿namespace design_patterns.Adapter.ExternalAPIs
 {
     public class MainPaymentSystem
     {
+        // Attributes of this specific API
         public double total { get; set; }
         public string account { get; set; }
 
