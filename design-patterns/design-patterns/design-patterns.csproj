@@ -43,11 +43,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter\Adapters\MainPaymentSystemAdapter.cs" />
+    <Compile Include="Adapter\ExternalAPIs\MainPaymentSystem.cs" />
+    <Compile Include="Adapter\ExternalAPIs\SecondaryPaymentSystem.cs" />
+    <Compile Include="Adapter\Models\Payment.cs" />
+    <Compile Include="Adapter\Adapters\IPaymentAdapter.cs" />
+    <Compile Include="Adapter\Adapters\SecondaryPaymentSystemAdapter.cs" />
+    <Compile Include="Chain of Responsibility\ChainOfResponsibilityExample.cs" />
+    <Compile Include="Chain of Responsibility\BuyItem.cs" />
+    <Compile Include="Chain of Responsibility\Handler.cs" />
+    <Compile Include="Chain of Responsibility\Item.cs" />
+    <Compile Include="Chain of Responsibility\SignOutItem.cs" />
+    <Compile Include="Command\Command.cs" />
+    <Compile Include="Command\CommandExample.cs" />
+    <Compile Include="Command\CommandTaxCalculator.cs" />
+    <Compile Include="Command\ExternalTaxesCalculator.cs" />
+    <Compile Include="Command\ExternalTaxCalculatorCaller.cs" />
+    <Compile Include="Composite\CompositeExample.cs" />
+    <Compile Include="Composite\Patron.cs" />
+    <Compile Include="Composite\Staff.cs" />
+    <Compile Include="Composite\User.cs" />
+    <Compile Include="Composite\UserHierarchy.cs" />
+    <Compile Include="Facade\CreditCardPayment.cs" />
+    <Compile Include="Facade\DebitCardPayment.cs" />
+    <Compile Include="Facade\ExternalTaxCalculator.cs" />
+    <Compile Include="Facade\FacadeExample.cs" />
+    <Compile Include="Facade\PaymentFacade.cs" />
+    <Compile Include="Facade\TransferPayment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proxy\IPaymentAPI.cs" />
+    <Compile Include="Proxy\PaymentAPI.cs" />
+    <Compile Include="Proxy\PaymentAPIProxy.cs" />
+    <Compile Include="Proxy\ProxyExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Flyweight\" />
+    <Folder Include="Interpreter\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
