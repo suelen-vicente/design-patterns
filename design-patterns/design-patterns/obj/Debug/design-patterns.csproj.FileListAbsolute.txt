@@ -1,0 +1,8 @@
+C:\Conestoga\INFO8230_Systems_Dev_Theory\AS4\design-patterns\design-patterns\design-patterns\bin\Debug\design-patterns.exe.config
+C:\Conestoga\INFO8230_Systems_Dev_Theory\AS4\design-patterns\design-patterns\design-patterns\bin\Debug\design-patterns.exe
+C:\Conestoga\INFO8230_Systems_Dev_Theory\AS4\design-patterns\design-patterns\design-patterns\bin\Debug\design-patterns.pdb
+C:\Conestoga\INFO8230_Systems_Dev_Theory\AS4\design-patterns\design-patterns\design-patterns\obj\Debug\design-patterns.csproj.AssemblyReference.cache
+C:\Conestoga\INFO8230_Systems_Dev_Theory\AS4\design-patterns\design-patterns\design-patterns\obj\Debug\design-patterns.csproj.SuggestedBindingRedirects.cache
+C:\Conestoga\INFO8230_Systems_Dev_Theory\AS4\design-patterns\design-patterns\design-patterns\obj\Debug\design-patterns.csproj.CoreCompileInputs.cache
+C:\Conestoga\INFO8230_Systems_Dev_Theory\AS4\design-patterns\design-patterns\design-patterns\obj\Debug\design-patterns.exe
+C:\Conestoga\INFO8230_Systems_Dev_Theory\AS4\design-patterns\design-patterns\design-patterns\obj\Debug\design-patterns.pdb
